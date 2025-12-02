@@ -41,7 +41,7 @@ document.getElementById("regForm").addEventListener("submit", function(e){
     }
 
     let studentName = document.getElementById("name").value;
-
+    resultBox.style.display = "block";
      resultBox.innerHTML = `
         <h3>Registration Successful</h3>
         <p><strong>Student Name:</strong> ${studentName}</p>
