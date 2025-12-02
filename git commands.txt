@@ -1,0 +1,31 @@
+1/12/2025
+GIT commands :
+git status
+git add .
+git commit -m "message"
+git push origin main
+
+-------------------------------------------
+
+2/12/2025
+GIT COMMANDS :
+- to remove the git init from a folder : rmdir /s /q .git
+- clear the screen : cls
+- creating directory: mkdir Risa
+- How to hide a folder : attrib +h <Risa>  (Risa is a folder/directory)
+- How to unhide a folder : attrib -h <Risa>
+- How to remove one empty directory : rmdir<Risa>
+- How to remove one folder with content : rmdir /s /q <Risa>
+- Display the content of a directory : dir
+- How to display hidden folder : dir /a:h
+- How to rename a folder : rename Risa Merry
+- Display text in a text file : type filename.txt
+- Creating a new file and copying the message from txt file to the new txt file : type filename.txt>newfilename.txt
+- creating a new text file : notepad filename.txt
+- To delete a file : del filename
+- To delete all .txt files : del *.text
+- The list of wild characters : ? - single character, * - 0 or more characters
+- To display all single character named file with extension .txt : dir ?.txt
+- To display all files with any extension : dir *.*
+- To merge all file content in one file : 
+- To retrieve remote repo to local pc : git clone <url>
